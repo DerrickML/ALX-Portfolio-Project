@@ -2,7 +2,7 @@
 
 ![Restaurant_website](https://github.com/DeroMal/ALX-Portfolio-Project/blob/main/GreenhouseLightmonitoringWebPage.png)
 
-#### Demo: https://alx.rec22test.site/
+#### Demo: https://alx.rec22test.site/Greenhouse/
 #### Presentation: https://docs.google.com/presentation/d/1F0lVIMk6hpB8ktGwmXauOuFzkowKeHUev_3KIOTrgBo/edit?usp=sharing
 
 
