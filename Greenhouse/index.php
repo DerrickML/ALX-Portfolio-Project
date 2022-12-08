@@ -7,12 +7,12 @@ try{
     $sidemenu = './include/sidemenu.php';
     $main_header = './include/main_header.php';
     // $Results_Table = './include/Results_Table.php';
-    $PaginationTable = './PaginationTable.php';
+    $PaginationTable = 'PaginationTable.php';
     $footer = './include/footer.php';
 ?>
 
 <!-- <!DOCTYPE html> -->
-<!-- <Meta HTTP-EQUIV="Refresh" Content="2; URL=https://alx.rec22test.site/index.php"> -->
+<!-- <Meta HTTP-EQUIV="Refresh" Content="2; URL=http://localhost/moisture5/Greenhouse/index.php"> -->
 <html>
 <?php
         $url=$_SERVER['REQUEST_URI'];
@@ -23,9 +23,11 @@ try{
     <title>GH-AMS<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
     <meta charset="utf-8">
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/fontawesome.min.js" integrity="sha512-j3gF1rYV2kvAKJ0Jo5CdgLgSYS7QYmBVVUjduXdoeBkc4NFV4aSRTi+Rodkiy9ht7ZYEwF+s09S43Z1Y+ujUkA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link href="fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/brands.css" rel="stylesheet">
+    <link href="fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+    <link href="fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/solid.css" rel="stylesheet">
+    
     <!-- <script src="js/jquery.min.js"></script> -->
     <script type="text/javascript" src="js/Chart.min.js"></script>
     <link rel="stylesheet" href="style1.css" type="text/css" />
@@ -64,7 +66,7 @@ try{
 
             <div class="main-overview">
                 <div class="overviewCard">
-                    <a href="https://alx.rec22test.site/lightPage.php">
+                    <a href="http://localhost/Greenhouse/lightPage.php">
                         <div class="overviewCard-icon overviewCard-icon--document"></div>
                     </a>
                     <div class="overviewCard-description">
@@ -78,7 +80,7 @@ try{
                     </div> -->
                 </div>
                 <div class="overviewCard">
-                    <a href="https://alx.rec22test.site/humidPage.php">
+                    <a href="http://localhost/Greenhouse/humidPage.php">
                         <div class="overviewCard-icon overviewCard-icon--calendar"></div>
                     </a>
                     <div class="overviewCard-description">
@@ -93,7 +95,7 @@ try{
                     </div> -->
                 </div>
                 <div class="overviewCard">
-                    <a href="https://alx.rec22test.site/tempPage.php">
+                    <a href="http://localhost/Greenhouse/tempPage.php">
                         <div class="overviewCard-icon overviewCard-icon--mail">
                         </div>
                     </a>
@@ -109,7 +111,7 @@ try{
                     </div> -->
                 </div>
                 <div class="overviewCard">
-                    <a href="https://alx.rec22test.site/moisturePage.php">
+                    <a href="http://localhost/Greenhouse/moisturePage.php">
                         <div class="overviewCard-icon overviewCard-icon--photo"></div>
                     </a>
                     <div class="overviewCard-description">
@@ -172,7 +174,7 @@ try{
 </html>
 <?php } catch (Exception $e) {
     ob_end_clean();
-header('Location: https://alx.rec22test.site/error.php');
+header('Location: http://localhost/Greenhouse/error.php');
 } 
 ob_end_flush();
 ?>

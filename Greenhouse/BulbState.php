@@ -1,6 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!-- I use the Meta statement to refresh the data from the MySql database -->
-<Meta HTTP-EQUIV="Refresh" Content="3; URL=https://alx.rec22test.site/Greenhouse/Bulb.php">
+<Meta HTTP-EQUIV="Refresh" Content="3; URL=http://localhost/Greenhouse/Bulb.php">
 <html>
 <head>
 	<title>update MySql data</title>

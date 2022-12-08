@@ -1,11 +1,11 @@
 <?php
-    include('./include/paginationConnection.php');
-    include('./include/connection.php');
+    include('C:/xampp/htdocs/Greenhouse/include/paginationConnection.php');
+    include('C:/xampp/htdocs/Greenhouse/include/connection.php');
     include './include/title.php';
 ?>
 
 <!-- <!DOCTYPE html> -->
-<!-- <Meta HTTP-EQUIV="Refresh" Content="2; URL=https://alx.rec22test.site/Greenhouse/index.php"> -->
+<!-- <Meta HTTP-EQUIV="Refresh" Content="2; URL=http://localhost/moisture5/Greenhouse/index.php"> -->
 <html>
 <?php
         $url=$_SERVER['REQUEST_URI'];

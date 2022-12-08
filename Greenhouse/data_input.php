@@ -1,6 +1,6 @@
 <?php
     include ('./include/connection.php');
-    $sql_insert = "INSERT INTO moisture (Temperature, moisture, Humidity, LightIntensity, BulbState, WaterPump, Fan) VALUES ('".$_GET["Temperature"]."', '".$_GET["moisture"]."','".$_GET["Humidity"]."','".$_GET["LightIntensity"]."', '".$_GET["BulbState"]."', '".$_GET["WaterPump"]."', '".$_GET["Fan"]."')";
+    $sql_insert = "INSERT INTO moisture (moisture, LightIntensity, Temperature, Humidity, BulbState, Fan, WaterPump) VALUES ('".$_GET["moisture"]."', '".$_GET["LightIntensity"]."','".$_GET["Temperature"]."','".$_GET["Humidity"]."', '".$_GET["BulbState"]."', '".$_GET["Fan"]."', '".$_GET["WaterPump"]."') LIMIT 10";
 
     if(mysqli_query($con,$sql_insert))
     {

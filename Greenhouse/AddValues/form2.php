@@ -1,8 +1,8 @@
         <?php ob_start();
-    include './Greenhouse/include/connection.php';
-    $header = './Greenhouse/include/header.php';
-    $sidemenu = './Greenhouse/include/sidemenu.php';
-    $main_header = './Greenhouse/include/main_header.php';
+    include 'C:/xampp/htdocs/Greenhouse/include/connection.php';
+    $header = 'C:/xampp/htdocs/Greenhouse/include/header.php';
+    $sidemenu = 'C:/xampp/htdocs/Greenhouse/include/sidemenu.php';
+    $main_header = 'C:/xampp/htdocs/Greenhouse/include/main_header.php';
 ?>
         <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -19,19 +19,19 @@
             <link rel="stylesheet" href="bootstrap-4.5.1/bootstrap-4.5.1/dist/jsbootstrap.min.css"
                 crossorigin="anonymous">
             <link
-                href="https://alx.rec22test.site/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/fontawesome.css"
+                href="http://localhost/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/fontawesome.css"
                 rel="stylesheet">
             <link
-                href="https://alx.rec22test.site/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/brands.css"
+                href="http://localhost/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/brands.css"
                 rel="stylesheet">
-            <link href="https://alx.rec22test.site/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css"
+            <link href="http://localhost/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css"
                 rel="stylesheet">
             <link
-                href="https://alx.rec22test.site/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/solid.css"
+                href="http://localhost/Greenhouse/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/solid.css"
                 rel="stylesheet">
-            <script type="text/javascript" src="https://alx.rec22test.site/Greenhouse/js/jquery-3.4.1.min.js"></script>
-            <script src="https://alx.rec22test.site/Greenhouse/js/jquery.min.js"></script>
-            <script type="text/javascript" src="https://alx.rec22test.site/Greenhouse/js/Chart.min.js"></script>
+            <script type="text/javascript" src="http://localhost/js/jquery-3.4.1.min.js"></script>
+            <script src="http://localhost/Greenhouse/js/jquery.min.js"></script>
+            <script type="text/javascript" src="http://localhost/Greenhouse/js/Chart.min.js"></script>
 
             <link rel="stylesheet" href="/Greenhouse/style1.css" type="text/css" />
             <link rel="stylesheet" href="form.html.css" type="text/css" />
@@ -41,7 +41,7 @@
             <div class="grid">
                 <?php require $header; ?>
                 <?php require $sidemenu; ?>
-                <script src="https://alx.rec22test.site/Greenhouse/js/refresh.js"></script>
+                <script src="http://localhost/Greenhouse/js/refresh.js"></script>
                 <main class="main" id="main1">
                     <?php require $main_header; ?>
                     <div class="main-cards">

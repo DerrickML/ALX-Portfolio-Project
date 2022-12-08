@@ -4,7 +4,7 @@
     </div>
     <i class="homeIcon"></i>
     <div class="header__search">
-        <a class="sidenav__brand-link" href="http://localhost/"><i class="homeIcon"></i></a>
+        <a class="sidenav__brand-link" href="#"><i class="homeIcon"></i></a>
     </div>
     <div class="header__avatar">
         <div class="dropdown">

@@ -9,7 +9,7 @@
             echo "{$startYear}&ndash;{$thisYear}";
             }
         ?>
-        ALX-Portfolio Project: IoT Based Greenhouse Monitoring System
+        Final Year Project IoT Based Greenhouse Monitoring System
     </div>
-    <div class="footer__signature">Made with love by Derrick</div>
+    <div class="footer__signature">Made with love by CS20-01</div>
 </footer>

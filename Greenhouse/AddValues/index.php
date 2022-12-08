@@ -24,7 +24,7 @@
     }
 //.....................................................................................
 //-----------------------------CONNNECTION TO SERVER--------------------------------------------------
-    $link = mysqli_connect('localhost', 'wlgykctu_agro', '@ALXGrow1.');
+    $link = mysqli_connect('localhost', 'root', '');
     if (!$link)
     {
         $error = 'Unable to connect to the database server.';
@@ -343,7 +343,7 @@
             }
         }
 
-        header('Location: https://alx.rec22test.site/Greenhouse/'); //Redirects to https://alx.rec22test.site/Greenhouse/index.php
+        header('Location: http://localhost/Greenhouse/'); //Redirects to http://localhost/Greenhouse/index.php
         // header('Location: .'); //...........Redirects back
         // exit();
     }

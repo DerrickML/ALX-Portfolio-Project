@@ -4,9 +4,9 @@ header('Content-Type: application/json');
 
 //database
 define('DB_HOST', 'localhost');
-define('DB_USERNAME','wlgykctu_agro');
-define('DB_PASSWORD','@ALXGrow1.');
-define('DB_NAME','wlgykctu_alx');
+define('DB_USERNAME','root');
+define('DB_PASSWORD','');
+define('DB_NAME','greenhouse');
 
 //get connection
 $mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);

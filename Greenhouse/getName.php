@@ -11,6 +11,6 @@ include('./include/connection.php');
         }
         // Close the connection
        mysqli_close($con);
-     //   header('Location: https://alx.rec22test.site/Greenhouse/index.php');
+     //   header('Location: http://localhost/Greenhouse/index.php');
        exit();
  ?>
